@@ -1,5 +1,5 @@
 import React from 'react'
-import LCEX from '../src/components/Linechart-EX/linechart-ex'
+// import LCEX from '../src/components/Linechart-EX/linechart-ex'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
     <>
 
-      <LCEX />
+      {/* <LCEX /> */}
 
 
 
