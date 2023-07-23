@@ -9,45 +9,45 @@ export const userData =[
     },
 
     {
-        id:1,
-        year:2016,
-        userGain:8000,
+        id:2,
+        year:2017,
+        userGain:7000,
+        userLost:100
+    },
+    {
+        id:3,
+        year:2018,
+        userGain:2100,
+        userLost:400
+    },
+    {
+        id:4,
+        year:2019,
+        userGain:200,
+        userLost:300
+    },
+    {
+        id:5,
+        year:2020,
+        userGain:300,
+        userLost:50
+    },
+    {
+        id:6,
+        year:2021,
+        userGain:30,
+        userLost:10
+    },
+    {
+        id:7,
+        year:2022,
+        userGain:50,
         userLost:200
     },
     {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
-    },
-    {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
-    },
-    {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
-    },
-    {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
-    },
-    {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
-    },
-    {
-        id:1,
-        year:2016,
-        userGain:8000,
-        userLost:200
+        id:8,
+        year:2023,
+        userGain:700,
+        userLost:500
     },
 ]
