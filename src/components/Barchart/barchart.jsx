@@ -6,12 +6,12 @@ import {Bar} from 'react-chartjs-2'
 
 
 
-function Barchart (){
+function Barchart ({chartData}){
 
 
 
 
-    return <Bar data ={} options ={}/>
+    return <Bar data ={chartData} options ={}/>
 
 
 }
