@@ -4,7 +4,7 @@ import BarChart from '../src/components/Barchart/barchart'
 import {userData} from '../src/Data/data'
 import {Chart as ChartJS} from 'chart.js/auto'
 import LineChartEx from '../src/components/Linechart-EX/linechart-ex'
-
+import Piechart from '../src/components/Piechart/piechart'
 
 function App() {
 
@@ -51,7 +51,13 @@ function App() {
       <div style ={{width:700}}>
 
         < LineChartEx chartData ={userdata}/>
-        
+
+      </div>
+
+      <div style ={{width:700}}>
+
+        < Piechart chartData ={userdata}/>
+
       </div>
 
 
