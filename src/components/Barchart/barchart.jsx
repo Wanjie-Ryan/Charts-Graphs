@@ -11,7 +11,7 @@ function Barchart ({chartData}){
 
 
 
-    return <Bar data ={chartData} options ={}/>
+    return <Bar data ={chartData} />
 
 
 }

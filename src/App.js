@@ -2,18 +2,28 @@ import React,{useState} from 'react'
 // import LCEX from '../src/components/Linechart-EX/linechart-ex'
 import BarChart from '../src/components/Barchart/barchart'
 import {userData} from '../src/Data/data'
+import {Chart as ChartJS} from 'chart.js/auto'
+
 
 
 function App() {
 
-  const [userdata ,setUserData] = ({
+  const [userdata ,setUserData] = useState({
 
     labels:userData.map((data)=> data.year),
 
     datasets:[{
 
       label:'User Gains Per year',
-      data:userData.map((data)=>data.userGain)
+      data:userData.map((data)=>data.userGain),
+      backgroundColor:[
+
+        "rgba(75,192,192,1)",
+        "#ecf0f1",
+        "#50AF95",
+        "#f3ba2f",
+        "#2a71d0"
+      ]
 
     }]
   })
@@ -29,9 +39,13 @@ function App() {
 
       {/* <LCEX /> */}
 
+      <div style ={{width:700}}>
 
-      <BarChart chartData={userdata} />
 
+
+        <BarChart chartData={userdata} />
+
+      </div>
 
 
 
